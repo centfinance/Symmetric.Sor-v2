@@ -10,6 +10,8 @@ export const WETHADDR: { [chainId: number]: string } = {
     137: '0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270', // For Polygon this is actually wrapped MATIC
     42161: '0x82aF49447D8a07e3bd95BD0d56f35241523fBab1',
     99: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',
+    42220: '0x2DEf4285787d58a2f811AF24755A8150622f4361',
+    100: '0x1D4dBDA9131a0781D2131Eaea012d2013d2F2883',
 };
 
 export const MULTIADDR: { [chainId: number]: string } = {
@@ -21,6 +23,8 @@ export const MULTIADDR: { [chainId: number]: string } = {
     137: '0xa1B2b503959aedD81512C37e9dce48164ec6a94d',
     42161: '0x269ff446d9892c9e19082564df3f5e8741e190a1',
     99: '0xeefba1e63905ef1d7acba5a8513c70307c1ce441',
+    42220: '0xE72f42c64EA3dc05D2D94F541C3a806fa161c49B',
+    100: '0xFAa296891cA6CECAF2D86eF5F7590316d0A17dA0',
 };
 
 export const VAULTADDR: { [chainId: number]: string } = {
@@ -32,6 +36,8 @@ export const VAULTADDR: { [chainId: number]: string } = {
     137: '0xBA12222222228d8Ba445958a75a0704d566BF2C8',
     42161: '0xBA12222222228d8Ba445958a75a0704d566BF2C8',
     99: '0xBA12222222228d8Ba445958a75a0704d566BF2C8',
+    42220: '0xE7E1573c32859Dc022001f3ee5a3bcdCEb921C9d',
+    100: '0x901E0dC02f64C42F73F0Bdbf3ef21aFc96CF50be',
 };
 
 // Currently only used for Polygon

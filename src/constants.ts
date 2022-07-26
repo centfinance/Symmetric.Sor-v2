@@ -12,6 +12,7 @@ export const WETHADDR: { [chainId: number]: string } = {
     99: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',
     42220: '0x2DEf4285787d58a2f811AF24755A8150622f4361',
     100: '0x1D4dBDA9131a0781D2131Eaea012d2013d2F2883',
+    2222: '0x4c7deaEA2257E21B34916E75b1E781f674AE10f2',
 };
 
 export const MULTIADDR: { [chainId: number]: string } = {
@@ -25,6 +26,7 @@ export const MULTIADDR: { [chainId: number]: string } = {
     99: '0xeefba1e63905ef1d7acba5a8513c70307c1ce441',
     42220: '0xE72f42c64EA3dc05D2D94F541C3a806fa161c49B',
     100: '0xFAa296891cA6CECAF2D86eF5F7590316d0A17dA0',
+    2222: '0x149bBb210051851016F57a2824C0444f642833a6',
 };
 
 export const VAULTADDR: { [chainId: number]: string } = {
@@ -38,6 +40,7 @@ export const VAULTADDR: { [chainId: number]: string } = {
     99: '0xBA12222222228d8Ba445958a75a0704d566BF2C8',
     42220: '0xD25E02047E76b688445ab154785F2642c6fe3f73',
     100: '0x24F87b37F4F249Da61D89c3FF776a55c321B2773',
+    2222: '0xA18808989E7EB0FcF0932fd00D007F3C118B78E7',
 };
 
 // Currently only used for Polygon
